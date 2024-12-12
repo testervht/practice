@@ -7,6 +7,6 @@ public class SimpleLocation {
         System.out.println("test");
     }
     public double Distance(SimpleLocation other){
-        
+        return other.latitute;
     }
 }

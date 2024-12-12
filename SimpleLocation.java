@@ -4,6 +4,7 @@ public class SimpleLocation {
     public SimpleLocation(double lat, double lon){
         this.latitute = lat;
         this.longtitute = lon;
+        System.out.println("test");
     }
     public double Distance(SimpleLocation other){
         
